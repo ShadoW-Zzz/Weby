@@ -78,3 +78,62 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #4285f4;
 }
+
+.adv-top {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+#google-adv{
+    padding: 15px;
+    width: 74px;
+    height: 24px;
+}
+
+.line {
+    border-bottom: 1px solid #ebebeb;
+}
+.adv-head {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+.adv-1{
+    font-size: large;
+    color: #333;
+}
+
+.searches,.adv-button-d {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:7px
+}
+.left {
+    width: 200px;
+}
+
+.right {
+   width: 500px
+}
+
+.all-elements{
+    padding: 30px;
+}
+
+.adv-button {
+    height: 27px;
+    cursor: default;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 2px;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+
+.empty {
+    padding: 30px;
+    width: 600px;
+}
