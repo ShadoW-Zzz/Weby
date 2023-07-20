@@ -85,11 +85,17 @@ body {
     align-items: center;
 }
 #google-adv{
-    padding: 15px;
-    width: 74px;
-    height: 24px;
+    margin: 10px;
+    width: 92px;
+    height: 30px;
 }
 
+.main {
+    margin: 40px;
+}
+.empty-1 {
+    padding:30px;
+}
 .line {
     border-bottom: 1px solid #ebebeb;
 }
